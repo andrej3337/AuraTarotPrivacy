@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Aura Tarot</title>
+  <meta name="description" content="Privacy Policy for Aura Tarot mobile application (Aura: Карты Таро и Гадания).">
+  <link rel="icon" href="https://raw.githubusercontent.com/andrej3337/AuraTarot/master/assets/favicon.png" type="image/png">
+  <style>
+    :root {
+      --bg: #0D0B14;
+      --surface: #171424;
+      --surface-border: rgba(255, 213, 137, 0.15);
+      --gold: #ffd589;
+      --gold-dark: #412d00;
+      --text: #F1EFF7;
+      --text-muted: #A09DB0;
+      --accent: #9A7BFF;
+      --table-border: #262238;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background-color: var(--surface);
+      border: 1px solid var(--surface-border);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 10px;
+      }
+      .container {
+        padding: 24px 18px;
+        border-radius: 14px;
+      }
+    }
+
+    .header-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 213, 137, 0.12);
+      border: 1px solid rgba(255, 213, 137, 0.3);
+      color: var(--gold);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--surface-border);
+      padding-bottom: 16px;
+    }
+
+    .lang-switcher {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .lang-btn {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--text);
+      padding: 6px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .lang-btn.active {
+      background: var(--gold);
+      color: var(--gold-dark);
+      border-color: var(--gold);
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--gold);
+      margin-top: 32px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #DDD9E8;
+      font-size: 15px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+      color: #DDD9E8;
+      font-size: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: #FFFFFF;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #ffe6b0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid var(--table-border);
+      padding: 10px 12px;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(255, 213, 137, 0.08);
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    td {
+      background: rgba(0, 0, 0, 0.15);
+      color: #E2DFED;
+    }
+
+    .callout {
+      background: rgba(154, 123, 255, 0.08);
+      border-left: 4px solid var(--accent);
+      padding: 14px 16px;
+      border-radius: 6px;
+      margin: 18px 0;
+      font-size: 14px;
+      color: #D2CBEC;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--surface-border);
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header-badge">✦ AURA TAROT LEGAL</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      <strong>Application:</strong> Aura: Карты Таро и Гадания (Aura Tarot)<br>
+      <strong>Package ID:</strong> com.auratarot.cards<br>
+      <strong>Effective Date:</strong> October 12, 2026 | <strong>Last Updated:</strong> October 12, 2026
+    </div>
+
+    <div class="lang-switcher">
+      <button class="lang-btn active" id="btn-en" onclick="setLang('en')">English</button>
+      <button class="lang-btn" id="btn-ru" onclick="setLang('ru')">Русский</button>
+    </div>
+
+    <!-- ENGLISH CONTENT -->
+    <div id="content-en">
+      <p>Welcome to <strong>Aura Tarot</strong> ("Aura", "we", "our", or "us"), provided by Andrei Kosheleu. We value your trust and are committed to safeguarding the privacy and personal data of our users. This Privacy Policy details how our mobile application collects, uses, protects, and discloses information when you use our app.</p>
+      
+      <p>By downloading, accessing, or using Aura Tarot, you agree to the terms outlined in this Privacy Policy.</p>
+
+      <h2>1. Information We Collect</h2>
+
+      <h3>A. Information You Provide Directly</h3>
+      <ul>
+        <li><strong>Astrological Profile Data (Optional):</strong> You may optionally input your date of birth, time of birth, and place of birth. This data is strictly used on your device to calculate your astrological natal chart (Sun, Moon, Ascendant) and current planetary transits for personalized tarot readings.</li>
+        <li><strong>Questions & Tarot Notes:</strong> Questions submitted to the oracle and any private interpretation notes you choose to save.</li>
+        <li><strong>Photos & Camera Data:</strong> If you use the <em>Photo Spread (Анализ по фото)</em> feature, you may grant camera or photo library access to capture images of physical tarot cards on your table. These photos are processed in real time solely to detect and identify tarot cards. We do not use these images to identify people or faces.</li>
+      </ul>
+
+      <h3>B. Automatically Collected Information</h3>
+      <ul>
+        <li><strong>Device & Diagnostics:</strong> Basic non-identifying technical data including device model, operating system version, app version, and crash logs to maintain app stability.</li>
+        <li><strong>Purchases & Subscriptions:</strong> All financial and credit card transactions are handled exclusively and securely by <strong>Google Play</strong>. We do not receive or store your payment details. We receive only an anonymous transaction token and entitlement status via <strong>RevenueCat</strong>.</li>
+      </ul>
+
+      <h3>C. Cloud Backup Data (Optional)</h3>
+      <ul>
+        <li><strong>Google Drive Sync:</strong> If you manually enable the cloud backup feature, the app interacts with your Google Drive solely to save or restore your encrypted database file in an isolated app-specific folder. We never access your credentials or any other private files on your Google Drive.</li>
+      </ul>
+
+      <h2>2. How We Use Your Information</h2>
+      <ul>
+        <li>To generate personalized tarot card readings, daily predictions, and astrological context.</li>
+        <li>To recognize physical cards from photos using artificial intelligence.</li>
+        <li>To maintain your reading history, arcana frequency statistics, and energy balance.</li>
+        <li>To verify and maintain your active <em>Aura Premium</em> subscription.</li>
+        <li>To diagnose technical errors and improve user experience.</li>
+      </ul>
+      <div class="callout">
+        <strong>We never sell, rent, or trade your personal data</strong> to advertisers, data brokers, or third parties.
+      </div>
+
+      <h2>3. Third-Party Services</h2>
+      <p>Aura Tarot utilizes industry-standard third-party services to support core functionality:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th>Purpose</th>
+            <th>Privacy Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google Play Services</strong></td>
+            <td>App distribution, in-app billing</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+          </tr>
+          <tr>
+            <td><strong>RevenueCat</strong></td>
+            <td>Subscription management</td>
+            <td><a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy</a></td>
+          </tr>
+          <tr>
+            <td><strong>OpenRouter / AI APIs</strong></td>
+            <td>Anonymized AI interpretation generation</td>
+            <td><a href="https://openrouter.ai/privacy" target="_blank">OpenRouter Privacy</a></td>
+          </tr>
+          <tr>
+            <td><strong>Google Drive API</strong></td>
+            <td>Optional user-directed cloud backup</td>
+            <td><a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Policy</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><em>Note on AI Processing:</em> AI queries contain only anonymized card spread information and query text. No personally identifying information (such as real name or email) is sent to AI language models.</p>
+
+      <h2>4. Data Storage & Local-First Architecture</h2>
+      <p>Aura Tarot employs a <strong>local-first architecture</strong>. Your profile, readings, and statistics are stored locally on your device in a private SQLite database. All network communications are encrypted using standard HTTPS/TLS protocols.</p>
+
+      <h2>5. Permissions Requested</h2>
+      <ul>
+        <li><code>CAMERA</code>: Used solely to take photos of physical tarot cards for recognition.</li>
+        <li><code>READ_MEDIA_IMAGES</code>: Used solely to pick an existing tarot card photo from your gallery.</li>
+        <li><code>INTERNET</code>: Required to fetch AI readings, verify subscriptions, and sync Google Drive backups.</li>
+      </ul>
+      <p>You can revoke permissions at any time in your Android device's <em>Settings &gt; Apps &gt; Aura Tarot &gt; Permissions</em>.</p>
+
+      <h2>6. Data Deletion & User Rights</h2>
+      <p>You can completely erase all your data at any time by:</p>
+      <ul>
+        <li>Clearing application storage in Android <em>Settings &gt; Apps &gt; Aura Tarot &gt; Storage &gt; Clear Data</em>, or by uninstalling the app.</li>
+        <li>Deleting the backup file directly from your Google Drive.</li>
+      </ul>
+
+      <h2>7. Children's Privacy</h2>
+      <p>Aura Tarot is not directed toward children under the age of 13 (or under 16 in the European Union). We do not knowingly collect personal data from children.</p>
+
+      <h2>8. Changes to This Policy</h2>
+      <p>We may periodically update this Privacy Policy. Any updates will be published on this page with an updated "Last Updated" date.</p>
+
+      <h2>9. Contact Us</h2>
+      <p>If you have any questions or concerns regarding this Privacy Policy, please contact us:</p>
+      <ul>
+        <li><strong>Developer:</strong> Andrei Kosheleu</li>
+        <li><strong>Email:</strong> <a href="mailto:andrej3337@gmail.com">andrej3337@gmail.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/andrej3337/AuraTarot" target="_blank">github.com/andrej3337/AuraTarot</a></li>
+      </ul>
+    </div>
+
+    <!-- RUSSIAN CONTENT -->
+    <div id="content-ru" style="display: none;">
+      <p>Добро пожаловать в <strong>Aura Tarot</strong> («Aura», «мы», «наш»), разработанное Андреем Кошелевым. Мы уважаем вашу конфиденциальность и стремимся защищать персональные данные пользователей. Настоящая Политика конфиденциальности объясняет, как мобильное приложение <em>Aura: Карты Таро и Гадания</em> (Package ID: <code>com.auratarot.cards</code>) собирает, использует, хранит и защищает информацию.</p>
+
+      <h2>1. Какую информацию мы собираем</h2>
+      <h3>A. Данные, предоставляемые вами</h3>
+      <ul>
+        <li><strong>Астрологические данные (по желанию):</strong> Вы можете указать дату, время и место рождения для расчета натальной карты (Солнце, Луна, Асцендент) и транзитов планет для персонализации раскладов Таро.</li>
+        <li><strong>Вопросы к оракулу и заметки:</strong> Тексты вопросов и ваши личные заметки к раскладам.</li>
+        <li><strong>Камера и фото карт:</strong> При использовании функции <em>«Анализ по фото»</em> приложение запрашивает доступ к камере или галерее для распознавания физических карт Таро. Фотографии обрабатываются в реальном времени исключительно для распознавания арканов и не используются для идентификации лиц или людей.</li>
+      </ul>
+
+      <h3>B. Автоматически собираемые данные</h3>
+      <ul>
+        <li><strong>Техническая диагностика:</strong> Версия ОС, модель устройства и логи сбоев для обеспечения стабильности приложения.</li>
+        <li><strong>Покупки и подписки:</strong> Платежные данные обрабатываются исключительно через <strong>Google Play</strong>. Мы не имеем доступа к номерам ваших банковских карт. Статус подписки подтверждается через сервис <strong>RevenueCat</strong>.</li>
+      </ul>
+
+      <h3>C. Резервные копии (по желанию)</h3>
+      <ul>
+        <li><strong>Синхронизация с Google Диском:</strong> При включении резервного копирования приложение сохраняет файл базы данных только в специальную защищенную папку на вашем Google Диске. Мы не имеем доступа к другим вашим файлам.</li>
+      </ul>
+
+      <h2>2. Как используются данные</h2>
+      <ul>
+        <li>Формирование персонализированных раскладов Таро и астрологического контекста.</li>
+        <li>Распознавание физических карт с помощью нейросетей (AI).</li>
+        <li>Ведение истории раскладов и статистики энергий на вашем устройстве.</li>
+        <li>Проверка статуса подписки <em>Aura Premium</em>.</li>
+      </ul>
+      <div class="callout">
+        <strong>Мы никогда не продаем и не передаем ваши личные данные третьим лицам или рекламным сетям.</strong>
+      </div>
+
+      <h2>3. Сторонние сервисы</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Сервис</th>
+            <th>Назначение</th>
+            <th>Политика конфиденциальности</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Google Play Services</strong></td>
+            <td>Биллинг и дистрибуция приложения</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+          </tr>
+          <tr>
+            <td><strong>RevenueCat</strong></td>
+            <td>Управление подписками Aura Premium</td>
+            <td><a href="https://www.revenuecat.com/privacy" target="_blank">RevenueCat Privacy</a></td>
+          </tr>
+          <tr>
+            <td><strong>OpenRouter / AI APIs</strong></td>
+            <td>Анонимизированная генерация толкований</td>
+            <td><a href="https://openrouter.ai/privacy" target="_blank">OpenRouter Privacy</a></td>
+          </tr>
+          <tr>
+            <td><strong>Google Drive API</strong></td>
+            <td>Пользовательские резервные копии</td>
+            <td><a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Policy</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>4. Хранение и безопасность</h2>
+      <p>Приложение использует концепцию <strong>Local-First</strong>: все ваши расклады, натальные данные и история хранятся локально на вашем смартфоне в базе SQLite. Все сетевые запросы шифруются по протоколу HTTPS/TLS.</p>
+
+      <h2>5. Разрешения (Permissions)</h2>
+      <ul>
+        <li><code>CAMERA</code>: Только для съемки физических карт Таро для распознавания.</li>
+        <li><code>READ_MEDIA_IMAGES</code>: Только для выбора готового фото карт из галереи.</li>
+        <li><code>INTERNET</code>: Для связи с ИИ, проверки подписок и Google Диска.</li>
+      </ul>
+
+      <h2>6. Удаление данных</h2>
+      <p>Вы можете удалить все данные в любой момент: очистив данные приложения в настройках Android (<em>Настройки &gt; Приложения &gt; Aura Tarot &gt; Очистить хранилище</em>) или удалив приложение со смартфона.</p>
+
+      <h2>7. Контакты</h2>
+      <p>По любым вопросам пишите разработчику:</p>
+      <ul>
+        <li><strong>Разработчик:</strong> Андрей Кошелев</li>
+        <li><strong>Email:</strong> <a href="mailto:andrej3337@gmail.com">andrej3337@gmail.com</a></li>
+        <li><strong>Репозиторий GitHub:</strong> <a href="https://github.com/andrej3337/AuraTarot" target="_blank">github.com/andrej3337/AuraTarot</a></li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      &copy; 2026 Aura Tarot. All rights reserved.
+    </div>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.getElementById('content-en').style.display = lang === 'en' ? 'block' : 'none';
+      document.getElementById('content-ru').style.display = lang === 'ru' ? 'block' : 'none';
+      document.getElementById('btn-en').className = 'lang-btn ' + (lang === 'en' ? 'active' : '');
+      document.getElementById('btn-ru').className = 'lang-btn ' + (lang === 'ru' ? 'active' : '');
+    }
+  </script>
+</body>
+</html>
